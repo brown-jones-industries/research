@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "This will be the code base for the front end app Ex: This is where the React code base will be",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^2.4.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "^15.6.0",
+    "concurrently": "^3.5.0",
+    "typescript": "^2.4.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
